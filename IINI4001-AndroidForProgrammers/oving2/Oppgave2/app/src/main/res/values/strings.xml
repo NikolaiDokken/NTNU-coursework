@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Oppgave2</string>
+    <string name="vre_grense">Øvre grense</string>
+    <string name="textview">3</string>
+    <string name="svar">Svar:</string>
+    <string name="multipliser">Multipliser</string>
+    <string name="adder">Adder</string>
+    <string name="textview2">5</string>
+    <string name="_10">10</string>
+    <string name="_8">8</string>
+    <string name="riktig">Riktig!</string>
+    <string name="feil">Feil. Riktig svar er</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+</resources>

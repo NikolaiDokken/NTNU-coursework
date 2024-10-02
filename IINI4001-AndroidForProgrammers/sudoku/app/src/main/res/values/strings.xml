@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Android-Sudoku-App</string>
+    <string name="sudoku">Sudokuuuuu</string>
+    <string name="norwegian_description">A picture of a norwegian flag</string>
+    <string name="british_description">A picture of a british flag</string>
+
+    <string name="new_game">Start New Game</string>
+    <string name="add_new_board">Add new board</string>
+    <string name="continue_new_board">Continue</string>
+    <string name="successful_new_board">New board saved</string>
+    <string name="fail_new_board">Failed to save new board</string>
+    <string name="show_instructions">Show instructions</string>
+    <string name="choose_language">Change language:</string>
+
+    <string name="instructions">Instructions</string>
+    <string name="instructions_1">1. In Sudoku you are to fill all empty squares with numbers. The numbers range from 1 to 9 (in 9x9 Sudoku).</string>
+    <string name="instructions_2">2. The board is separated into rows, columns and boxes(each containing 9 squares).</string>
+    <string name="instructions_3">3. Each row, column and box should contain all numbers ranging from 1 to 9.</string>
+    <string name="go_back_button">Go back</string>
+
+    <string name="choose_difficulty">Choose difficulty:</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="start_game">Start Game</string>
+    <string name="choose_number">Choose number</string>
+    <string name="choose_a_number">Choose number to place:</string>
+    <string name="place_number">Place number</string>
+    <string name="piece_unsure">Mark piece as unsure</string>
+    <string name="remove_piece">Remove piece</string>
+    <string name="start_piece_error">Can not change start piece</string>
+    <string name="check_board">Check board</string>
+    <string name="board_correct">Board is correct</string>
+    <string name="board_incorrect">Board is not correct</string>
+    <string name="board_not_full">Fill all empty squares</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="unsure">Unsure</string>
+    <string name="erease">Erease</string>
+    <string name="solve">Solve</string>
+</resources>

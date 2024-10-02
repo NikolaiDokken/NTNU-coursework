@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Oving3</string>
+    <string name="textview">Navn</string>
+    <string name="legg_til">Legg til</string>
+    <string name="endre">Endre</string>
+    <string name="navn">Navn</string>
+    <string name="_01_08_20">01-08-20</string>
+    <string name="f_dselsdato">Fødselsdato</string>
+</resources>

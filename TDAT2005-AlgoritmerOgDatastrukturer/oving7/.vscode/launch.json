@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Oving7",
+            "request": "launch",
+            "mainClass": "Oving7"
+        }
+    ]
+}

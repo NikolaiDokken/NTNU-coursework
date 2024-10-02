@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="337dp"
+            android:layout_height="337dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <fragment
+                    android:id="@+id/cellGroupFragment"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="0"
+                    tools:layout="@layout/fragment_cell_group" />
+
+                <fragment
+                    android:id="@+id/cellGroupFragment2"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="1"
+                    tools:layout="@layout/fragment_cell_group" />
+
+                <fragment
+                    android:id="@+id/cellGroupFragment3"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="2"
+                    tools:layout="@layout/fragment_cell_group" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <fragment
+                    android:id="@+id/cellGroupFragment4"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="3"
+                    tools:layout="@layout/fragment_cell_group" />
+
+                <fragment
+                    android:id="@+id/cellGroupFragment5"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="4"
+                    tools:layout="@layout/fragment_cell_group" />
+
+                <fragment
+                    android:id="@+id/cellGroupFragment6"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="5"
+                    tools:layout="@layout/fragment_cell_group" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="117dp">
+
+                <fragment
+                    android:id="@+id/cellGroupFragment7"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="6"
+                    tools:layout="@layout/fragment_cell_group" />
+
+                <fragment
+                    android:id="@+id/cellGroupFragment8"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="7"
+                    tools:layout="@layout/fragment_cell_group" />
+
+                <fragment
+                    android:id="@+id/cellGroupFragment9"
+                    android:name="com.example.sudoku.fragments.CellGroupFragment"
+                    android:layout_width="92dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:tag="8"
+                    tools:layout="@layout/fragment_cell_group" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ButtonErease"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@android:drawable/ic_menu_delete"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                android:onClick="onValueClicked" />
+
+            <Button
+                android:id="@+id/buttonEnter1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/buttonEnter2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/buttonEnter3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_3" />
+
+            <Button
+                android:id="@+id/buttonEnter4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_4" />
+
+            <Button
+                android:id="@+id/buttonEnter5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_5" />
+
+            <Button
+                android:id="@+id/buttonEnter6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_6" />
+
+            <Button
+                android:id="@+id/buttonEnter7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/buttonEnter8"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_8" />
+
+            <Button
+                android:id="@+id/buttonEnter9"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onValueClicked"
+                android:text="@string/_9" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:onClick="onGoBackButtonClicked"
+        android:text="@string/go_back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="248dp"
+        android:onClick="onContinueButtonClicked"
+        android:text="@string/continue_new_board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965"
+        android:layout_marginStart="248dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

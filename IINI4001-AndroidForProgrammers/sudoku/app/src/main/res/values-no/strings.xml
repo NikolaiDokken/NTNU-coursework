@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Android-Sudoku</string>
+    <string name="sudoku">Sudoku</string>
+    <string name="norwegian_description">Et bilde av et norskt flagg</string>
+    <string name="british_description">Et bilde av et britisk flagg</string>
+
+    <string name="new_game">Start nytt spill</string>
+    <string name="add_new_board">Legg til nytt brett</string>
+    <string name="continue_new_board">Fortsett</string>
+    <string name="successful_new_board">Nytt brett lagret</string>
+    <string name="fail_new_board">Feilet med å lagre brett</string>
+    <string name="show_instructions">Vis bruksanvisning</string>
+    <string name="choose_language">Bytt språk:</string>
+
+    <string name="instructions">Bruksanvisning</string>
+    <string name="instructions_1">1. I Sudoku skal du fylle alle de tomme rutene med tall fra 1 til 9 (i 9x9 Sudoku).</string>
+    <string name="instructions_2">2. Brettet er delt inn i rader, kolonner, og bokser(hver boks inneholder 9 ruter).</string>
+    <string name="instructions_3">3. Hver rad, kolonne, og boks skal inneholde alle tall fra 1 til 9.</string>
+    <string name="go_back_button">Gå tilbake</string>
+
+    <string name="choose_difficulty">Velg vanskelighetsgrad:</string>
+    <string name="difficulty_easy">Lett</string>
+    <string name="difficulty_normal">Middels</string>
+    <string name="difficulty_hard">Vanskelig</string>
+    <string name="start_game">Start spill</string>
+    <string name="choose_number">Velg tall</string>
+    <string name="choose_a_number">Velg et tall å plassere:</string>
+    <string name="place_number">Plasser tall</string>
+    <string name="piece_unsure">Marker brikke som usikker</string>
+    <string name="remove_piece">Fjern tall</string>
+    <string name="start_piece_error">Kan ikke endre start verdier</string>
+    <string name="check_board">Sjekk brett</string>
+    <string name="board_correct">Brettet er riktig fylt ut</string>
+    <string name="board_incorrect">Brettet er ikke riktig fylt ut</string>
+    <string name="board_not_full">Fyll alle tomme ruter</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="unsure">Usikker</string>
+    <string name="erease">Slett</string>
+    <string name="solve">Løs</string>
+</resources>
